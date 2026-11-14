@@ -7,7 +7,7 @@ and each team's form over their last 5 matches.
 ## Data
 - **Source:** [Football-Data.co.uk](https://www.football-data.co.uk/englandm.php), Premier League results and betting odds, 2015/16 to 2024/25 (3800 matches)
 - **Licence:** no formal licence. The data is provided free for match prediction. The CSV files are not included in the repository.
-- The notebook downloads the data automatically into a `data/` folder the first time it runs.
+- The notebook downloads the data automatically into a `data/` folder the first time it runs. Internet connection is needed.
 
 ## Requirements
 - Python 3.11.9 
@@ -32,3 +32,6 @@ pip install -r requirements.txt
 ## Progress
 - **Milestone 2:** data loading, data audit, form features, time based train/test
   split, preprocessing pipeline and baselines.
+
+- **Milestone 3:** logistic regression and random forest models, random forest
+  tuning, results table, confusion matrix, error analysis and draft conclusion. 
