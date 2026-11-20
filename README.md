@@ -35,3 +35,16 @@ pip install -r requirements.txt
 
 - **Milestone 3:** logistic regression and random forest models, random forest
   tuning, results table, confusion matrix, error analysis and draft conclusion. 
+
+- **Milestone 4 (final):** cut off choice, final test on the locked 2023/24 and
+  2024/25 seasons, permutation feature importance and final conclusion.
+
+## Project structure
+```
+CT4101-premier-league-prediction/
+|__ premier_league_prediction.ipynb   # full workflow: data, features, models, results
+|__ requirements.txt                  # Python packages and versions
+|__ README.md                         # this file
+|__ .gitignore                        # keeps data/ and .venv/ out of the repo
+|__ data/                             # created when the notebook runs (not in repo)
+``` 
